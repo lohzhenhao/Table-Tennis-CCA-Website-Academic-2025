@@ -1,0 +1,24 @@
+/* all content is centered */
+.Content_box{
+    background-color: var(--primary);
+    color: var(--text-dark);
+    text-align: center;
+}
+/* gallery has a gold accent */
+h1{
+    width: fit-content;
+    border-bottom: 0.5vh solid var(--accent);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* image border */
+.img-thumbnail{
+    background-color: var(--secondary);
+    border-color: var(--accent);
+}
+/* modal size max */
+#modalwhole{
+    max-width: 60%;
+    max-height: 80vh;
+}

@@ -1,0 +1,81 @@
+/* background white and blue  */
+.Content_box_white{
+    background-color: var(--primary);
+    color: var(--text-dark);
+}
+.Content_box_blue{
+    background-color: var(--secondary);
+    color: var(--text-white);
+}
+
+/* Gold underline under header text */
+h2{
+    width: fit-content;
+    border-bottom: 0.5vh solid var(--accent);
+}
+
+/* Table blue version */
+.table-blue{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse; 
+    border: 2px solid midnightblue;
+}
+.thead-blue{
+    background-color: MidnightBlue;
+    color: var(--text-white);
+} .thead-blue tr th{
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+}
+.tbody-blue tr td{
+    padding: 15px;
+    border-bottom: 1px solid lightgray; 
+} .tbody-blue tr:hover {
+    background-color: lightgray; 
+}
+
+/* Table light version */
+.table-white{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse; 
+    border: 2px solid var(--accent);;
+}
+.thead-white{
+    background-color: var(--accent);
+    color: var(--text-dark);
+} .thead-white tr th{
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+}
+.tbody-white tr td{
+    padding: 15px;
+    border-bottom: 1px solid MidnightBlue; 
+} .tbody-white tr:hover {
+    background-color: MidnightBlue; 
+}
+
+/* Carousel */
+.carousel_text{
+    padding-left: 2rem;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+}
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+/* Form */
+#report_by{
+    width: 300px;
+}
+#report_type{
+    width: fit-content;
+}
+#report_num{
+    width: 300px;
+}

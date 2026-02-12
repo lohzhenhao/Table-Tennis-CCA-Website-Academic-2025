@@ -1,0 +1,36 @@
+
+/* colour scheme for blue and white box */
+.Content_box_white{
+    background-color: var(--primary);
+    color: var(--text-dark);
+}
+.Content_box_blue{
+    background-color: var(--secondary);
+    color: var(--text-white);
+}
+/* img border colours */
+#main_img1{
+    background-color: var(--primary);
+    border-color: var(--accent);
+}
+#main_img2{
+    background-color: var(--secondary);
+    border-color: var(--accent);
+}
+/* video border */
+#videopromo{
+    background-color: var(--secondary);
+    border: solid 2px var(--accent);
+    display: flex;
+    justify-content: center; 
+    padding: 5px;
+}
+/* gold accents under headers */
+h1{
+    width: fit-content;
+    border-bottom: 0.5vh solid var(--accent);
+}
+h2{
+    width: fit-content;
+    border-bottom: 0.5vh solid var(--accent);
+}

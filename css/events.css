@@ -1,0 +1,59 @@
+
+/* table overall style */
+.event-table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse; 
+    border: 2px solid midnightblue;
+}
+/* header style */
+.event-table thead {
+    background-color: MidnightBlue;
+    color: White;
+}
+
+.event-table th {
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+.event-table td {
+    padding: 15px;
+    border-bottom: 1px solid lightgray; 
+}
+
+
+.event-table tbody tr:hover {
+    background-color: lightgray; 
+}
+
+/* overall styling for class =tag polite and tag bonding */
+.tag {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: White;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* color for class=tag polite */
+.tag.polite {
+    background-color: Gold;
+}
+/* color for clas=tag bonding */
+.tag.bonding {
+    background-color: SteelBlue; 
+}
+.back-link{
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    color:midnightblue;
+    font-weight: bold;
+}
+.back-link :hover{
+    background-color: midnightblue;
+    color:white;
+}
+

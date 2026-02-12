@@ -1,0 +1,5 @@
+
+h2{
+    width: fit-content;
+    border-bottom: 0.5vh solid var(--accent);
+}
